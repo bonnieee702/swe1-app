@@ -1,1 +1,1 @@
-web: gunicorn --bind :8000 mysite.wsgi:application
+web: gunicorn --bind :8000 --workers 2 --threads 2 mysite.wsgi:application
