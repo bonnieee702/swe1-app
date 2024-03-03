@@ -10,10 +10,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id:
-    secure: $awsaccesskeyid
-  secret_access_key:
-    secure: $awssecretaccesskey
+  access_key_id: $awsaccesskeyid
+  secret_access_key: $awssecretaccesskey
   region: "us-east-1"
   app: "swe1-app"
   env: "swe1-app-dev"
