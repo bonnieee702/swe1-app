@@ -8,6 +8,8 @@ script:
   - black --check .
   - python manage.py migrate
   - python manage.py test
+  - coverage run manage.py test
+  - coverage report
 
 deploy:
   provider: elasticbeanstalk
