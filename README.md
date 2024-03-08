@@ -3,4 +3,4 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/bonnieee702/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/bonnieee702/swe1-app?branch=main)
 
-application url: http://swe1-app-dev3.us-east-1.elasticbeanstalk.com/polls/
+application url: http://swe1-app-dev.us-east-1.elasticbeanstalk.com/polls/
